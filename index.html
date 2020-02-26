@@ -1,0 +1,376 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+  <title>Nilesh Kulkarni - Home</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script type="text/javascript" src="js/hidebib.js"></script>
+
+</head>
+
+<body>
+
+  <div class="section">
+    <h1>Nilesh Kulkarni</h1>
+  </div>
+  <hr>
+
+  <div class="section">
+    <table>
+      <tr valign="top">
+        <td style="width: 600px; vertical-align: top;">
+          I am a first year <a href="https://cse.engin.umich.edu/"> CSE </a> Ph.D. student at <a
+            href="https://umich.edu/"> Unviersity of Michgan </a> advised by <a
+            href="https://web.eecs.umich.edu/~fouhey/">David Fouhey</a> and <a
+            href="https://web.eecs.umich.edu/~justincj/"> Justin Johnson</a>. I previously completed my masters from
+          <a href=""> Carnegie Mellon University </a> where I was advised by <a
+            href="https://www.cs.cmu.edu/~abhinavg/">Abhinav Gupta</a>. Before that I completed my undergrad in <a
+            href="https://www.cse.iitb.ac.in/"> Computer Science and Engineering </a> from <a
+            href="http://iitb.ac.in/">IIT Bombay </a>.
+          </br> </br>
+          I closely collaborate with <a href="https://shubhtuls.github.io/"> Shubham Tulsiani </a> from FAIR and have
+          collaborated with <a href="https://imisra.github.io/"> Ishan Misra</a>. I have worked at <a
+            href="https://research.samsung.com/aicenter_seoul"> Samsung AI Research </a> in Seoul, South Korea for two
+          years. My research interest are to understand and learn the 3D structure in the visual world with minimal
+          supervision.
+          <p><br></p>
+          <p>
+            <a href="javascript:toggleblock('email')">email</a> | <a href="https://github.com/nileshkulkarni">github</a>
+            | <a href="https://scholar.google.com/citations?user=tLrLu1cAAAAJ&hl=en">google scholar</a> | <a
+              href="docs/cv.pdf">CV</a>
+          </p>
+          <pre xml:space="preserve" id="email" style="font-size: 12px">
+
+nileshk AT umich DOT edu
+  </pre>
+          <script xml:space="preserve" language="JavaScript">
+            hideblock('email');
+          </script>
+        </td>
+
+        <td width="400"><img src="img.jpg" alt="My picture" height=250 align="right" /></td>
+      </tr>
+    </table>
+  </div>
+
+
+
+
+
+  <div class="section">
+    <h2> News</h2>
+    <div class="paper" id="teaching">
+      <table width="100%" valign="top" border="0" cellspacing="0" cellpadding="10">
+        <tr>
+          <td> <strong>[Feb 2020]</strong> </td>
+          <td>A-CSM is accepted at CVPR 2020 </td>
+        </tr>
+        <tr>
+          <td> <strong>[Sep 2019]</strong> </td>
+          <td>Starting as a Ph.D. student at Unviersity of Michigan</td>
+        </tr>
+        <tr>
+          <td> <strong>[Jun 2019]</strong> </td>
+          <td> Defended my master thesis in Robotoics at CMU </td>
+        </tr>
+        <tr>
+          <td> <strong>[Jun 2019]</strong> </td>
+          <td>2 Papers accepted at ICCV 2019</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+
+  <div class="section">
+
+    <h2> Publications </h2><br>
+
+    <!--
+<div class="year_heading"><br>2020<hr width="220px" align="left"></div>
+--->
+    <!--------------------------------------------------------------------------->
+    <div class="paper" id="cvpr20acsm">
+      <img class="paper" src="figures/cvpr20acsm.png" />
+      <p> <strong style="color:red">[New]</strong> <b id="papertitle">Articulation-aware Canonical Surface Mapping</b>
+        <br />
+        <strong>Nilesh Kulkarni</strong> , Abhinav Gupta, David Fouhey, Shubham Tulsiani<br />
+        CVPR, 2020 <br />
+        <a href="#">pdf </a> &nbsp <a href="javascript:toggleblock('cvpr20acsmAbs')">abstract </a> &nbsp <a
+          href="javascript:toggleblock('cvpr20acsmBib')">bibtex </a> </p>
+      <div class="papermeta" id="cvpr20acsmMeta">
+        <em id="cvpr20acsmAbs">We tackle the tasks of: 1) predicting a Canonical Surface Mapping (CSM) that indicates
+          the mapping from 2D pixels to corresponding points on a canonical template shape , and 2) inferring the
+          articulation and pose of the template corresponding to the input image. While previous approaches rely on
+          leveraging keypoint supervision for learning, we present an approach that can learn without such annotations.
+          Our key insight is that these tasks are geometrically related, and we can obtain supervisory signal via
+          enforcing consistency among the predictions. We present results across a diverse set of animate object
+          categories, showing that our method can learn articulation and CSM prediction from image collections using
+          only foreground mask labels for training. We empirically show that allowing articulation helps learn more
+          accurate CSM prediction, and that enforcing the consistency with predicted CSM is similarly critical for
+          learning meaningful articulation.</em>
+        <pre xml:space="preserve" id="cvpr20acsmBib">
+
+@inProceedings{kulkarni2020acsm,
+  title={Articulation-aware Canonical Surface Mapping},
+  author={Kulkarni, Nilesh and Gupta, Abhinav and Fouhey, David and Tulsiani, Shubham},
+  year={2020},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}</pre>
+        </td>
+        <script language="javascript" type="text/javascript" xml:space="preserve">
+          hideblock('cvpr20acsmAbs');
+          hideblock('cvpr20acsmBib');
+        </script>
+      </div>
+    </div>
+    <!--------------------------------------------------------------------------->
+
+    <!--------------------------------------------------------------------------->
+    <!--------------------------------------------------------------------------->
+
+    <!--------------------------------------------------------------------------->
+
+    <div class="paper" id="iccv19csm">
+      <img class="paper static" src="figures/iccv19csm.png" />
+      <img class="paper" src="figures/iccv19csm.gif" />
+      <p><b id="papertitle">Canonical Surface Mapping via Geometric Cycle Consistency</b> <br />
+        <strong> Nilesh Kulkarni </strong>, Abhinav Gupta*, Shubham Tulsiani* <br />
+        ICCV, 2019 <br />
+        <a href="https://arxiv.org/pdf/1907.10043.pdf">pdf </a> &nbsp <a
+          href="https://nileshkulkarni.github.io/csm/">project page </a> &nbsp <a
+          href="javascript:toggleblock('iccv19csmAbs')">abstract </a> &nbsp <a
+          href="javascript:toggleblock('iccv19csmBib')">bibtex </a> &nbsp <a
+          href="https://www.youtube.com/watch?v=93M3ou4mg-w">video </a> &nbsp <a
+          href="https://github.com/nileshkulkarni/csm">code </a> </p>
+      <div class="papermeta" id="iccv19csmMeta">
+        <em id="iccv19csmAbs">We explore the task of Canonical Surface Mapping (CSM). Specifically, given an image, we
+          learn to map pixels on the object to their corresponding locations on an abstract 3D model of the category.
+          But how do we learn such a mapping? A supervised approach would require extensive manual labeling which is not
+          scalable beyond a few hand-picked categories. Our key insight is that the CSM task (pixel to 3D), when
+          combined with 3D projection (3D to pixel), completes a cycle. Hence, we can exploit a geometric cycle
+          consistency loss, thereby allowing us to forgo the dense manual supervision. Our approach allows us to train a
+          CSM model for a diverse set of classes, without sparse or dense keypoint annotation, by leveraging only
+          foreground mask labels for training. We show that our predictions also allow us to infer dense correspondence
+          between two images, and compare the performance of our approach against several methods that predict
+          correspondence by leveraging varying amount of supervision.</em>
+        <pre xml:space="preserve" id="iccv19csmBib">
+
+@inProceedings{kulkarni2019csm,
+  title={Canonical Surface Mapping via Geometric Cycle Consistency},
+  author={Kulkarni, Nilesh and Gupta, Abhinav and Tulsiani, Shubham},
+  year={2019},
+  booktitle={International Conference on Computer Vision (ICCV)}
+}</pre>
+        </td>
+        <script language="javascript" type="text/javascript" xml:space="preserve">
+          hideblock('iccv19csmAbs');
+          hideblock('iccv19csmBib');
+        </script>
+      </div>
+    </div>
+    <!--------------------------------------------------------------------------->
+
+    <!--------------------------------------------------------------------------->
+    <div class="paper" id="iccv19relnet">
+      <img class="paper" src="figures/iccv19relnet.png" />
+      <p><b id="papertitle">3D-RelNet: Joint Object and Relational Network for 3D Prediction</b> <br />
+        <strong> Nilesh Kulkarni </strong>, Ishan Misra, Shubham Tulsiani, Abhinav Gupta <br />
+        ICCV, 2019 <br />
+        <a href="https://arxiv.org/pdf/1906.02729">pdf </a> &nbsp <a
+          href="https://nileshkulkarni.github.io/relative3d/">project page </a> &nbsp <a
+          href="javascript:toggleblock('iccv19relnetAbs')">abstract </a> &nbsp <a
+          href="javascript:toggleblock('iccv19relnetBib')">bibtex </a> &nbsp <a
+          href="https://github.com/nileshkulkarni/relative3d">code </a> </p>
+      <div class="papermeta" id="iccv19relnetMeta">
+        <em id="iccv19relnetAbs">We propose an approach to predict the 3D shape and pose for the objects present in a
+          scene. Existing learning based methods that pursue this goal make independent predictions per object, and do
+          not leverage the relationships amongst them. We argue that reasoning about these relationships is crucial, and
+          present an approach to incorporate these in a 3D prediction framework. In addition to independent per-object
+          predictions, we predict pairwise relations in the form of relative 3D pose, and demonstrate that these can be
+          easily incorporated to improve object level estimates. We report performance across different datasets (SUNCG,
+          NYUv2), and show that our approach significantly improves over independent prediction approaches while also
+          outperforming alternate implicit reasoning methods.</em>
+        <pre xml:space="preserve" id="iccv19relnetBib">
+
+@inProceedings{kulkarni2019relnet,
+  title={3D-RelNet: Joint Object and Relational Network for 3D Prediction},
+  author={Nilesh Kulkarni, Ishan Misra, Shubham Tulsiani, Abhinav Gupta},
+  booktitle={ICCV},
+  year={2019}
+}</pre>
+        </td>
+        <script language="javascript" type="text/javascript" xml:space="preserve">
+          hideblock('iccv19relnetAbs');
+          hideblock('iccv19relnetBib');
+        </script>
+      </div>
+    </div>
+
+    <div class="paper" id="colling18">
+      <img class="paper" src="figures/colling18.png" />
+      <p><b id="papertitle">On-Device Neural Language Model based Word Prediction</b> <br />
+        Seunghak Yu*, <strong>Nilesh Kulkarni</strong>*, Haejun Lee, Jihie Kim <br />
+        COLING : System Demonstrations, 2018 <br />
+        <a href="https://arxiv.org/pdf/1906.02729">pdf </a> &nbsp <a
+          href="javascript:toggleblock('colling18Abs')">abstract </a> &nbsp <a
+          href="javascript:toggleblock('colling18Bib')">bibtex </a> </p>
+      <div class="papermeta" id="colling18Meta">
+        <em id="colling18Abs">Recent developments in deep learning with application to language modeling have led to
+          success in tasks of text processing, summarizing and machine translation. However, deploying huge language
+          models on mobile devices for on-device keyboards poses computation as a bottle-neck due to their puny
+          computation capacities. In this work, we propose an on-device neural language model based word prediction
+          method that optimizes run-time memory and also provides a realtime prediction environment. Our model size is
+          7.40MB and has average prediction time of 6.47 ms. The proposed model outperforms existing methods for word
+          prediction in terms of keystroke savings and word prediction rate and has been successfully
+          commercialized..</em>
+        <pre xml:space="preserve" id="colling18Bib">
+
+@inproceedings{yu2018device,
+  title={On-device neural language model based word prediction},
+  author={Yu, Seunghak and Kulkarni, Nilesh and Lee, Haejun and Kim, Jihie},
+  booktitle={Proceedings of the 27th International Conference on Computational Linguistics: System Demonstrations},
+  pages={128--131},
+  year={2018}
+}</pre>
+        </td>
+        <script language="javascript" type="text/javascript" xml:space="preserve">
+          hideblock('colling18Abs');
+          hideblock('colling18Bib');
+        </script>
+      </div>
+    </div>
+
+    <div class="paper" id="emnlp17">
+      <img class="paper" src="figures/emnlp2017.png" />
+      <p><b id="papertitle">Syllable-level Neural Language Model for Agglutinative Language</b> <br />
+        Seunghak Yu*, <strong>Nilesh Kulkarni</strong>*, Haejun Lee, Jihie Kim <br />
+        EMNLP workshop on Subword and Character level models in NLP (SCLeM), 2017 <br />
+        <a href="https://arxiv.org/pdf/1708.05515.pdf">pdf </a> &nbsp <a
+          href="javascript:toggleblock('emnlp17Abs')">abstract </a> &nbsp <a
+          href="javascript:toggleblock('emnlp17Bib')">bibtex </a> </p>
+      <div class="papermeta" id="emnlp17Meta">
+        <em id="emnlp17Abs">Language models for agglutinative languages have always been hindered in past due to myriad
+          of agglutinations possible to any given word through various affixes. We propose a method to diminish the
+          problem of out-of-vocabulary words by introducing an embedding derived from syllables and morphemes which
+          leverages the agglutinative property. Our model outperforms character-level embedding in perplexity by 16.87
+          with 9.50 M parameters. Proposed method achieves state of the art performance over existing input prediction
+          methods in terms of Key Stroke Saving and has been commercialized.</em>
+        <pre xml:space="preserve" id="emnlp17Bib">
+
+          @article{yu2017syllable,
+            title={Syllable-level neural language model for agglutinative language},
+            author={Yu, Seunghak and Kulkarni, Nilesh and Lee, Haejun and Kim, Jihie},
+            journal={arXiv preprint arXiv:1708.05515},
+            year={2017}
+          }</pre>
+        </td>
+        <script language="javascript" type="text/javascript" xml:space="preserve">
+          hideblock('emnlp17Abs');
+          hideblock('emnlp17Bib');
+        </script>
+      </div>
+    </div>
+
+    <div class="paper" id="icpr16">
+      <img class="paper" src="figures/icpr16.png" />
+      <p><b id="papertitle">Robust kernel principal nested spheres</b> <br />
+        Suyash Awate*, Manik Dhar*, <strong>Nilesh Kulkarni</strong>*<br />
+        EMNLP workshop on Subword and Character level models in NLP (SCLeM), 2017 <br />
+        <a href="papers/rkpns.pdf">pdf </a> &nbsp <a href="javascript:toggleblock('icpr16Abs')">abstract </a> &nbsp <a
+          href="javascript:toggleblock('icpr16Bib')">bibtex </a> </p>
+      <div class="papermeta" id="icpr16Meta">
+        <em id="icpr16Abs">Kernel principal component analysis (kPCA) learns nonlinear modes of variation in the data by
+          nonlinearly mapping the data to kernel feature space and performing (linear) PCA in the associated reproducing
+          kernel Hilbert space (RKHS). However, several widely-used Mercer kernels map data to a Hilbert sphere in RKHS.
+          For such directional data in RKHS, linear analyses can be unnatural or suboptimal. Hence, we propose an
+          alternative to kPCA by extending principal nested spheres (PNS) to RKHS without needing the explicit lifting
+          map underlying the kernel, but solely relying on the kernel trick. It generalizes the model for the residual
+          errors by penalizing the L p norm / quasi-norm to enable robust learning from corrupted training data. Our
+          method, termed robust kernel PNS (rkPNS), relies on the Riemannian geometry of the Hilbert sphere in RKHS.
+          Relying on rkPNS, we propose novel algorithms for dimensionality reduction and classification (with and
+          without outliers in the training data). Evaluation on real-world datasets shows that rkPNS compares favorably
+          to the state of the art.</em>
+        <pre xml:space="preserve" id="icpr16Bib">
+
+          @article{yu2017syllable,
+            title={Syllable-level neural language model for agglutinative language},
+            author={Yu, Seunghak and Kulkarni, Nilesh and Lee, Haejun and Kim, Jihie},
+            journal={arXiv preprint arXiv:1708.05515},
+            year={2017}
+          }</pre>
+        </td>
+        <script language="javascript" type="text/javascript" xml:space="preserve">
+          hideblock('icpr16Abs');
+          hideblock('icpr16Bib');
+        </script>
+      </div>
+    </div>
+
+
+    <!--- TEMPLATE
+<div class="paper" id="paperId">
+  <img class="paper" title="X" src="images/X.png" />
+  <p><b id="papertitle">Title</b> <br/>
+  <strong>Shubham Tulsiani</strong>, Richard Tucker, Noah Snavely<br />
+  ECCV, 2018<br />
+  <a href="link">pdf</a>  &nbsp <a href="page">project page</a>  &nbsp <a href="javascript:toggleblock('paperIdAbs')">abstract</a> &nbsp <a href="javascript:toggleblock('paperIdBib')">bibtex</a>  &nbsp <a href="codelink">code</a> </p>
+
+  <div class="papermeta" id="paperIdMeta">
+  <em id="paperIdAbs">ABSTRACT</em></p>
+  <pre xml:space="preserve" id="paperIdBib" style="font-size: 12px">
+@inProceedings{
+BIBTEX
+}</pre></td>
+  <script language="javascript" type="text/javascript" xml:space="preserve">
+     hideblock('paperIdAbs');
+     hideblock('paperIdBib');
+  </script>
+  </div>
+</div>
+
+-->
+    <!--------------------------------------------------------------------------->
+
+  </div>
+
+  <div class="section">
+
+    <h2> Patents </h2><br>
+    <div class="paper" id="patent16">
+      <img class="paper" src="figures/blank.png" />
+      <p><b id="papertitle">Electronic apparatus for compressing language model, electronic apparatus for
+          providing recommendation word and operation methods thereof</b> <br />
+        Seunghak Yu, <strong>Nilesh Kulkarni</strong>, Haejun Lee<br />
+        US Patent App. 15/888,442 <br />
+        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7899667"> patent </a> &nbsp <a
+          href="javascript:toggleblock('patent16Abs')">abstract </a> </p>
+      <div class="papermeta" id="patent16Meta">
+        <em id="patent16Abs">An electronic apparatus for compressing a language model is provided, the electronic
+          apparatus including a storage configured to store a language model which includes an embedding matrix
+          and a softmax matrix generated by a recurrent neural network (RNN) training based on basic data
+          including a plurality of sentences, and a processor configured to convert the embedding matrix into a
+          product of a first projection matrix and a shared matrix, the product of the first projection matrix and
+          the shared matrix having a same size as a size of the embedding matrix, and to convert a transposed
+          matrix of the softmax matrix into a product of a second projection matrix and the shared matrix, the
+          product of the second projection matrix and the shared matrix having a same size as a size of the
+          transposed matrix of the softmax matrix, and to update elements of the first projection matrix, the
+          second projection matrix and the shared matrix by performing the RNN training with respect to the first
+          projection matrix, the second projection matrix and the shared matrix based on the basic data.
+        </em>
+        </td>
+        <script language="javascript" type="text/javascript" xml:space="preserve">
+          hideblock('patent16Abs');
+        </script>
+      </div>
+    </div>
+
+    <right>
+      Website inspired from <a href="https://shubhtuls.github.io/">here</a>
+    </right>
+
+</body>
+
+</html>
