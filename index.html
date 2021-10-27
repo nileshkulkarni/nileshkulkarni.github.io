@@ -72,6 +72,10 @@ nileshk AT umich DOT edu
     <div class="paper" id="teaching">
       <table width="100%" valign="top" border="0" cellspacing="0" cellpadding="10">
         <tr>
+          <td> <strong>[Sept 2021]</strong> </td>
+          <td> Collision Replay accepted to BMVC 2021 as Oral </td>
+        </tr>
+        <tr>
           <td> <strong>[May 2021]</strong> </td>
           <td> Collision Replay is out on <a href="https://arxiv.org/abs/2105.01061">Arxiv </a> </td>
         </tr>
@@ -105,6 +109,35 @@ nileshk AT umich DOT edu
   <div class="section">
 
     <h2> Publications </h2><br>
+    <div class="paper" id="bmvc21collision">
+      <img class="paper static" src="figures/bmvc21.png" />
+      <p> <b id="papertitle">Collision Replay: What does bumping into scenes tell you about scene geometry?</b>
+        <br />
+        Alexandar Raistrick, <strong>Nilesh Kulkarni</strong> David Fouhey, <br/>
+        BMVC, 2021 (<strong> Oral </strong>) <br />
+        <a href="https://web.eecs.umich.edu/~fouhey/2021/collisions/collisions.pdf">pdf </a> &nbsp <a href="javascript:toggleblock('bmvc21collisionAbs')">abstract </a> &nbsp <a
+          href="javascript:toggleblock('bmvc21collisionBib')">bibtex </a> &nbsp
+             <a href="https://web.eecs.umich.edu/~fouhey/2021/collisions/test_set_random_walk_predictions.mp4">video </a> &nbsp
+              </p> 
+      <div class="papermeta" id="bmvc21collisionMeta">
+        <em id="bmvc21collisionAbs"> What does bumping into things in past scenes tell you about scene geometry in a new scene? In this paper, we investigate the idea of learning from collisions. At the heart of our approach is the idea of 
+          collision replay, where after a collision an agent associates the pre-collision observations (such as images or sound collected by the agent) with the time until the next collision. These samples enable training a deep network that can map the pre-collision observations to information about scene geometry.
+          Specifically, we use collision replay to train a model to predict a distribution over collision time from new observations by using supervision from bumps. We learn this distribution conditioned on visual data or echolocation responses. This distribution conveys information about the
+          navigational affordances (e.g., corridors vs open spaces) and, as we show, can be converted into the distance function for the scene geometry. We analyze our approach with a noisily actuated agent in a photorealistic simulator.</em>
+        <pre xml:space="preserve" id="bmvc21collisionBib">
+
+          @inproceedings{raistrick21,
+            title = {Collision Replay: What Does Bumping Into Things Tell You About Scene Geometry?},
+            author = {Alexander Raistrick and Nilesh Kulkarni and David F. Fouhey},
+            booktitle = {BMVC},
+            year = 2021}</pre>
+        </td>
+        <script language="javascript" type="text/javascript" xml:space="preserve">
+          hideblock('bmvc21collisionAbs');
+          hideblock('bmvc21collisionBib');
+        </script>
+      </div>
+    </div>
 
     <!--
 <div class="year_heading"><br>2020<hr width="220px" align="left"></div>
