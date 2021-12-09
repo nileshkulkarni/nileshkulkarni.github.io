@@ -72,6 +72,10 @@ nileshk AT umich DOT edu
     <div class="paper" id="teaching">
       <table width="100%" valign="top" border="0" cellspacing="0" cellpadding="10">
         <tr>
+          <td> <strong>[Dec 2021]</strong> </td>
+          <td> Check out our new work DRDF on <a href="https://arxiv.org/pdf/2112.04481" > arxiv </a></td>
+        </tr>
+        <tr>
           <td> <strong>[Sept 2021]</strong> </td>
           <td> Collision Replay accepted to BMVC 2021 as Oral </td>
         </tr>
@@ -109,6 +113,44 @@ nileshk AT umich DOT edu
   <div class="section">
 
     <h2> Publications </h2><br>
+    <div class="paper" id="drdf">
+      <img class="paper static" src="https://nileshkulkarni.github.io/scene_drdf/assets/figures/teaser.png" />
+      <img class="paper" src="https://nileshkulkarni.github.io/scene_drdf/assets/gifs/9462.gif" />
+      <p> <b id="papertitle">What's behind the couch? Directed Ray Distance Functions for 3D Scene Reconstruction</b>
+        <br />
+        <strong>Nilesh Kulkarni</strong>, Justin Johnson, David F. Fouhey <br/>
+        Arxiv, 2021  <br />
+        <a href="https://arxiv.org/pdf/2112.04481">pdf </a> &nbsp <a href="javascript:toggleblock('drdfAbs')">abstract </a> &nbsp <a
+          href="javascript:toggleblock('drdfBib')">bibtex </a> &nbsp
+             <a href="https://youtu.be/bPFt4yYP7Ss">video </a> &nbsp
+              </p> </p>
+      <div class="papermeta" id="drdfMeta">
+        <em id="drdfAbs"> We present an approach for scene-level 3D reconstruction, including occluded regions, from an unseen RGB image. Our approach is trained on real 3D scans and images.
+          This problem has proved difficult for multiple reasons; Real
+          scans are not watertight, precluding many methods; distances in scenes require reasoning across objects (making
+          it even harder); and, as we show, uncertainty about surface locations motivates networks to produce outputs that
+          lack basic distance function properties. We propose a new
+          distance-like function that can be computed on unstructured
+          scans and has good behavior under uncertainty about surface location. Computing this function over rays reduces
+          the complexity further. We train a deep network to predict this function and show it outperforms other methods
+          on Matterport3D, 3D Front, and ScanNet.
+          </em>
+        <pre xml:space="preserve" id="drdfBib">
+
+          @article{kulkarni2021drdf,
+            title={What's behind the couch? Directed Ray Distance Functions for 3D Scene Reconstruction},
+            author={Kulkarni, Nilesh and Johnson, Justin and Fouhey, David F.},
+            year={2021},
+            booktitle={Arxiv, 2021}
+          }          
+        </td>
+        <script language="javascript" type="text/javascript" xml:space="preserve">
+          hideblock('drdfAbs');
+          hideblock('drdfBib');
+        </script>
+      </div>
+    </div>
+
     <div class="paper" id="bmvc21collision">
       <img class="paper static" src="figures/bmvc2021.jpg" />
       <img class="paper" src="figures/bmvc2021.jpg" />
