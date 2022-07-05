@@ -49,6 +49,10 @@ hr
   opacity:0;
 }
 
+th.news{
+  text-align: justify;
+}
+
 a
 {
 color:#1772d0;
