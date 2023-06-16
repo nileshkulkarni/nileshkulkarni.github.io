@@ -72,12 +72,19 @@ nileshk AT umich DOT edu
   <div class="section">
     <h2> News</h2>
     <div class="paper" id="teaching">
-      <table width="100%" valign="top" border="0" cellspacing="0" cellpadding="10">
+      <table id="newsTable" width="100%" valign="top" border="0" cellspacing="0" cellpadding="10">
+        <tr>
+          <td class="news"> <strong>[Jun 2023]</strong> </td>
+          <td> Pleaseed  D2-DRDF <a href="https://nileshkulkarni.github.io/d2drdf"> website</a> and <a href="https://nileshkulkarni.github.io/d2drdf/assets/paper.pdf" > paper </a> are available now.</td>
+        </tr>
+        <tr>
+          <td class="news"> <strong>[May 2023]</strong> </td>
+          <td> Internig at Waymo Research. Hosted by <a href="https://sites.google.com/site/skywalkeryxc/">Xinchen Yan</a> and <a href="https://charlesrqi.com/" >Charles Qi </a></td>
+        </tr>
         <tr>
           <td class="news"> <strong>[Feb 2023]</strong> </td>
           <td> D2-DRDF is accepted at CVPR 2023, Vancouver. Paper coming soon!</td>
         </tr>
-        
         <tr>
         <tr>
           <td class="news"> <strong>[Jul 2022]</strong> </td>
@@ -87,7 +94,7 @@ nileshk AT umich DOT edu
           <td class="news"> <strong>[May 2022]</strong> </td>
           <td> I'm interning at Google Research this summer hosted by <a href="https://geometry.stanford.edu/member/guibas/"> Prof. Leonidas Guibas</a></td>
         </tr>
-        <tr>
+        <!-- <tr>
           <td class="news"> <strong>[Dec 2021]</strong> </td>
           <td> Check out our new work DRDF on <a href="https://arxiv.org/pdf/2112.04481" > arxiv </a></td>
         </tr>
@@ -98,7 +105,7 @@ nileshk AT umich DOT edu
         <tr>
           <td class="news" > <strong>[May 2021]</strong> </td>
           <td> Collision Replay is out on <a href="https://arxiv.org/abs/2105.01061">Arxiv </a> </td>
-        </tr>
+        </tr> -->
         <!-- <tr>
           <td> <strong>[July 2020]</strong> </td>
           <td>IMR is out on <a href="https://arxiv.org/abs/2007.08504"> Arxiv </a> </td>
@@ -122,6 +129,7 @@ nileshk AT umich DOT edu
           <td>Two Papers accepted at ICCV 2019</td>
         </tr> -->
       </table>
+      <!-- <button onclick="showMore()">More</button> -->
     </div>
   </div>
 
@@ -137,9 +145,9 @@ nileshk AT umich DOT edu
         <br />
         <strong>Nilesh Kulkarni</strong>, Linyi Jin, Justin Johnson, David F. Fouhey <br/>
         CVPR, 2023  <br />
-        <a href="">pdf </a> &nbsp <a href="javascript:toggleblock('d2drdfAbs')">abstract </a> &nbsp <a
+        <a href="https://arxiv.org/pdf/2306.08671.pdf">pdf </a> &nbsp <a href="javascript:toggleblock('d2drdfAbs')">abstract </a> &nbsp <a
           href="javascript:toggleblock('d2drdfBib')">bibtex </a> &nbsp
-             <a href="">video (coming soon) </a> &nbsp <a href="">project page (coming soon) </a>
+             <a href="https://www.youtube.com/watch?v=cp7iMF9JWHM">video </a> &nbsp <a href="https://nileshkulkarni.github.io/d2drdf/">project page</a>
               </p> </p>
       <div class="papermeta" id="d2drdfMeta">
         <em id="d2drdfAbs">We introduce a method that can learn to predict scene-level implicit functions for 3D reconstruction from posed RGBD data.
@@ -552,6 +560,17 @@ BIBTEX
     <right>
       Website inspired from <a href="https://shubhtuls.github.io/">here</a>
     </right>
+
+    <script>
+      function showMore() {
+        var table = document.getElementById("newsTable");
+        var rows = table.getElementsByTagName("tr");
+
+        for (var i = 0; i < rows.length; i++) {
+          rows[i].style.display = "table-row";
+        }
+      }
+    </script>
 
 </body>
 
