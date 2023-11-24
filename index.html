@@ -137,11 +137,48 @@ nileshk AT umich DOT edu
   <div class="section">
 
     <h2> Publications </h2><br>
+    <div class="paper" id="nifty">
+      <img class="paper static" src="figures/nifty_teaser.png" />
+      <img class="paper" src="figures/nifty_teaser.png" />
+      <!-- <img class="paper" src="./figures/nifty_teaser.png" /> -->
+      <p> <strong style="color:red">[New]</strong> <b id="papertitle">NIFTY: Neural Object Interaction Fields for Guided Human Motion Synthesis
+      </b>
+        <br />
+        <strong>Nilesh Kulkarni</strong>, Davis Rempe, Kyle Genova, Abhijit Kundu, Justin Johnson, David F. Fouhey, Leonidas Guibas <br/>
+        Arxiv, 2023  <br />
+        <a href="https://arxiv.org/pdf/2307.07511.pdf">pdf </a> &nbsp <a href="javascript:toggleblock('niftyAbs')">abstract </a> &nbsp <a
+          href="javascript:toggleblock('niftyBib')">bibtex </a> &nbsp
+             <a href="https://nileshkulkarni.github.io/nifty/">project page</a>
+              </p> </p>
+      <div class="papermeta" id="niftyMeta">
+        <em id="niftyAbs">We address the problem of generating realistic 3D motions of humans interacting with objects in a scene. 
+          Our key idea is to create a neural interaction field attached to a specific object, which outputs the distance to the valid interaction manifold given a human pose as input. 
+          This interaction field guides the sampling of an object-conditioned human motion diffusion model, so as to encourage plausible contacts and affordance semantics. 
+          To support interactions with scarcely available data, we propose an automated synthetic data pipeline. 
+          For this, we seed a pre-trained motion model, which has priors for the basics of human movement, with interaction-specific anchor poses extracted from limited motion capture data. 
+          Using our guided diffusion model trained on generated synthetic data, we synthesize realistic motions for sitting and lifting with several objects, outperforming alternative approaches in terms of motion quality and successful action completion.
+          We call our framework NIFTY: Neural Interaction Fields for Trajectory sYnthesis.
+          </em>
+        <pre xml:space="preserve" id="niftyBib">
+          @article{kulkarni2023nifty,
+            title={Nifty: Neural object interaction fields for guided human motion synthesis},
+            author={Kulkarni, Nilesh and Rempe, Davis and Genova, Kyle and Kundu, Abhijit and Johnson, Justin and Fouhey, David and Guibas, Leonidas},
+            journal={arXiv preprint arXiv:2307.07511},
+            year={2023}
+          }
+        </td>
+        <script language="javascript" type="text/javascript" xml:space="preserve">
+          hideblock('niftyAbs');
+          hideblock('niftyBib');
+        </script>
+      </div>
+    </div>
+
     <div class="paper" id="d2drdf">
       <img class="paper static" src="figures/d2drdf_static.png" />
       <img class="paper" src="figures/d2drdf_static.png" />
       <!-- <img class="paper" src="https://nileshkulkarni.github.io/scene_drdf/assets/gifs/d2_drdf.gif" /> -->
-      <p> <strong style="color:red">[New]</strong> <b id="papertitle">Learning to Predict Scene-Level Implicit 3D from Posed RGBD Data</b>
+      <p> <b id="papertitle">Learning to Predict Scene-Level Implicit 3D from Posed RGBD Data</b>
         <br />
         <strong>Nilesh Kulkarni</strong>, Linyi Jin, Justin Johnson, David F. Fouhey <br/>
         CVPR, 2023  <br />
