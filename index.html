@@ -39,6 +39,7 @@
             href="https://www.cse.iitb.ac.in/"> Computer Science and Engineering </a> department at <a
             href="http://iitb.ac.in/">IIT Bombay </a>.
           <br/>
+          </br>
           During my Ph.D. I have been fortunate to intern at Google Reearch and Waymo Research where I worked on exciting problems in human object interaction and 3D reconstruction.
           </br> </br>
           I have closely collaborated with <a href="https://shubhtuls.github.io/"> Shubham Tulsiani </a> and <a href="https://imisra.github.io/"> Ishan Misra</a>. I spent time at <a
@@ -143,8 +144,66 @@ nileshk AT umich DOT edu
 
 
   <div class="section">
-
+   
+    
     <h2> Publications </h2><br>
+      <div class="paper" id="3dfries">
+      <img class="paper static" src="figures/3dfries_teaser.jpg" />
+      <img class="paper" src="figures/3dfries_teaser.jpg" />
+      <!-- <img class="paper" src="./figures/nifty_teaser.png" /> -->
+      <p> <strong style="color:red">[New]</strong> <b id="papertitle">	FAR: Flexible, Accurate and Robust 6DoF Relative Camera Pose Estimation
+      </b>
+        <br />
+        Linyi Jin, <strong>Nilesh Kulkarni</strong>, David Fouhey, <br/>
+        Arxiv, 2023  <br />
+        <a>coming soon </a>
+      <div class="papermeta" id="3dfiresMeta">
+        <em id="3dfiresAbs">
+          This paper introduces 3DFIRES, a novel system for scene-level 3D reconstruction from posed images. 
+          Designed to work with as few as one view, 3DFIRES reconstructs the complete geometry of unseen scenes, including hidden surfaces.
+          With multiple view inputs, our method produces  full reconstruction within all camera frustums. 
+          A key feature of our approach is the fusion of multi-view information at the feature level, enabling the production of coherent and comprehensive 3D reconstruction. 
+          We train our system on non-watertight scans from large-scale real scene dataset.
+          We show it matches the efficacy of single-view reconstruction methods with only one input and surpasses existing techniques in both quantitative and qualitative measures for sparse-view 3D reconstruction.
+          </em>
+        </td>
+        <script language="javascript" type="text/javascript" xml:space="preserve">
+          hideblock('3dfiresAbs');
+          // hideblock('niftyBib');
+        </script>
+      </div>
+    </div>
+    
+     <div class="paper" id="far">
+      <img class="paper static" src="figures/far_teaser.png" />
+      <img class="paper" src="figures/far_teaser.png" />
+      <!-- <img class="paper" src="./figures/nifty_teaser.png" /> -->
+      <p> <strong style="color:red">[New]</strong> <b id="papertitle">	FAR: Flexible, Accurate and Robust 6DoF Relative Camera Pose Estimation
+      </b>
+        <br />
+        Chris Rockwell, <strong>Nilesh Kulkarni</strong>, Linyi Jin, Jeong Joon Park, Justin Johnson, David Fouhey, <br/>
+        Arxiv, 2023  <br />
+        <a>coming soon </a>
+      <div class="papermeta" id="farMeta">
+        <em id="farAbs">Estimating relative camera poses between images has been a central problem in computer vision. 
+          Methods that find correspondences and solve for the fundamental matrix offer high precision in most cases. 
+          Conversely, methods predicting pose directly using neural networks are more robust to limited overlap and 
+          can infer absolute translation scale, but at the expense of reduced precision. We show how to combine the 
+          best of both methods; our approach yields results that are both precise and robust, 
+          while also accurately inferring translation scales.
+          At the heart of our model lies a Transformer that (1) learns to balance between solved and learned pose estimations, 
+          and (2) provides a prior to guide a solver. A comprehensive analysis supports our design choices and 
+          demonstrates that our method adapts flexibly to various feature extractors and correspondence estimators, 
+          showing state-of-the-art performance in 6DoF pose estimation on Matterport3D, InteriorNet, StreetLearn, and Map-free Relocalization.
+          </em>
+        </td>
+        <script language="javascript" type="text/javascript" xml:space="preserve">
+          hideblock('farAbs');
+          // hideblock('niftyBib');
+        </script>
+      </div>
+    </div>
+    
     <div class="paper" id="nifty">
       <img class="paper static" src="figures/nifty_teaser.png" />
       <img class="paper" src="figures/nifty_teaser.png" />
@@ -181,6 +240,7 @@ nileshk AT umich DOT edu
         </script>
       </div>
     </div>
+    
 
     <div class="paper" id="d2drdf">
       <img class="paper static" src="figures/d2drdf_static.png" />
